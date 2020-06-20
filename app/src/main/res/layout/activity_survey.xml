@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkblue"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/darkblue"
+        tools:context=".Survey">
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="ЛЮБИМИ ИЗПЪЛНИТЕЛИ СПОРЕД ЖАНР"
+            android:textSize="20dp"
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:padding="20dp"
+            android:background="@drawable/yellow_round">
+        </TextView>
+
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/results_btn"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/active_round"
+            android:text="Резултати"
+            android:textColor="@color/textColor"
+            android:textSize="20dp"
+            android:layout_marginTop="150dp"
+            android:padding="15dp"
+            android:layout_weight="1">
+        </Button>
+
+
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="Кой е любимият Ви хип-хоп изпълнител?"
+            android:textSize="20dp"
+            android:layout_marginTop="280dp"
+            android:padding="20dp"
+            android:background="@drawable/white_round">
+        </TextView>
+        <CheckBox
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="Eminem"
+            android:background="@drawable/white_round"
+            android:layout_marginTop="400dp"
+            android:padding="10dp">
+        </CheckBox>
+        <CheckBox
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="Joyner Lucas"
+            android:background="@drawable/white_round"
+            android:layout_marginTop="450dp"
+            android:padding="10dp">
+        </CheckBox>
+        <CheckBox
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="Drake"
+            android:background="@drawable/white_round"
+            android:layout_marginTop="500dp"
+            android:padding="10dp">
+        </CheckBox>
+        <CheckBox
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="Travis Scott"
+            android:background="@drawable/white_round"
+            android:layout_marginTop="550dp"
+            android:padding="10dp">
+        </CheckBox>
+
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="Кой е любимият Ви поп изпълнител?"
+            android:textSize="20dp"
+            android:layout_marginTop="680dp"
+            android:padding="20dp"
+            android:background="@drawable/white_round">
+        </TextView>
+        <CheckBox
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="Ariana Grande"
+            android:background="@drawable/white_round"
+            android:layout_marginTop="800dp"
+            android:padding="10dp">
+        </CheckBox>
+        <CheckBox
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+                android:text="Ed Sheeran"
+            android:background="@drawable/white_round"
+            android:layout_marginTop="850dp"
+            android:padding="10dp">
+        </CheckBox>
+        <CheckBox
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="Shawn Mendes"
+            android:background="@drawable/white_round"
+            android:layout_marginTop="900dp"
+            android:padding="10dp">
+        </CheckBox>
+        <CheckBox
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="Dua Lipa"
+            android:background="@drawable/white_round"
+            android:layout_marginTop="950dp"
+            android:padding="10dp">
+        </CheckBox>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="Кой е любимият Ви рок изпълнител/група?"
+            android:textSize="20dp"
+            android:layout_marginTop="1080dp"
+            android:padding="20dp"
+            android:background="@drawable/white_round">
+        </TextView>
+        <CheckBox
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="Linkin Park"
+            android:background="@drawable/white_round"
+            android:layout_marginTop="1200dp"
+            android:padding="10dp">
+        </CheckBox>
+        <CheckBox
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="Three Days Grace"
+            android:background="@drawable/white_round"
+            android:layout_marginTop="1250dp"
+            android:padding="10dp">
+        </CheckBox>
+        <CheckBox
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="Papa Roach"
+            android:background="@drawable/white_round"
+            android:layout_marginTop="1300dp"
+            android:padding="10dp">
+        </CheckBox>
+        <CheckBox
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="Skillet"
+            android:background="@drawable/white_round"
+            android:layout_marginTop="1350dp"
+            android:padding="10dp">
+        </CheckBox>
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/submitBtn"
+            android:background="@drawable/active_round"
+            android:layout_marginTop="1450dp"
+            android:layout_marginBottom="50dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:text="Предай">
+        </Button>
+
+    </RelativeLayout>
+</ScrollView>

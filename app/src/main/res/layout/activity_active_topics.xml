@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkGreen"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/tableLayout1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@color/darkGreen">
+
+
+            <TextView
+                android:id="@+id/topics_textv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:gravity="center"
+                android:text="Активни теми"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="60dp"
+                android:padding="15dp">
+            </TextView>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/favAristsGenreBtn"
+                android:background="@drawable/active_round"
+                android:text="Любими изпълнители според жанр"
+                android:textColor="@color/textColor"
+                android:textSize="15dp"
+                android:layout_margin="5dp"
+                android:padding="35dp"
+                android:layout_weight="1">
+            </Button>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/radiostatGenreBtn"
+                android:background="@drawable/active_round"
+                android:text="Любими радиостанции според жанр"
+                android:textColor="@color/textColor"
+                android:textSize="15dp"
+                android:layout_margin="5dp"
+                android:padding="35dp"
+                android:layout_weight="1">
+            </Button>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/favMusicVideoBtn"
+                android:background="@drawable/active_round"
+                android:text="Любими музикални видеа"
+                android:textColor="@color/textColor"
+                android:textSize="15dp"
+                android:layout_margin="5dp"
+                android:padding="35dp"
+                android:layout_weight="1">
+            </Button>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/favArtistYearBtn"
+                android:background="@drawable/active_round"
+                android:text="Любими изпълнители според години"
+                android:textColor="@color/textColor"
+                android:textSize="15dp"
+                android:layout_margin="5dp"
+                android:padding="35dp"
+                android:layout_weight="1">
+            </Button>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/favSongArtistBtn"
+                android:background="@drawable/active_round"
+                android:text="Любими песни на изпълнители"
+                android:textColor="@color/textColor"
+                android:textSize="15dp"
+                android:layout_margin="5dp"
+                android:padding="35dp"
+                android:layout_weight="1">
+            </Button>
+
+
+
+    </LinearLayout>
+</ScrollView>
